@@ -1,0 +1,38 @@
+@import './reset';
+@import './variable';
+
+@function weight($weight-name) {
+   @return map-get($font-weight, $weight-name)
+}
+
+
+body {
+   background-color: $primary-color;
+   font-weight: weight(bold);
+}
+
+@mixin flexCenter($direction) {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: $direction;
+}
+
+
+.main {
+   @include flexCenter(row);
+   width: 80%;
+   margin: 0 auto;
+   
+  #{&}__header {
+      color: $secondary-color;
+      &:hover {
+         color: $tertiary-color;
+      }
+   }
+
+  #{&}__paragraph {
+      color: $tertiary-color;
+      font-weight: weight(regular);;
+   }
+}
