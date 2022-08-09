@@ -1,0 +1,32 @@
+$color-pink: rgb(218, 39, 68);
+$color-white: white;
+$color-indigo: indigo;
+@mixin flexbox($val) {
+   display: flex;
+   justify-content: $val;
+   align-items: center;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html {
+   font-size: 62.8%;
+}
+
+body {
+    background:linear-gradient(45deg, lightblue, rgb(53, 53, 223));
+    height: 100vh;
+    @include flexbox(center);
+}
+
+.container {
+    height: 70vh;
+    width: 65vw;
+    box-shadow: 1px 1px 10px black;
+    background: $color-white;
+    border-radius: 3px;
+}
