@@ -1,0 +1,64 @@
+
+
+-  What is Algorithm?
+  
+  - Set of procedures to achieveing a certain goal or task.
+  - Algorithm is a sequence of steps to achieve a goal.
+
+A more broader definition of algorithm is: A set of rules to be followed in calculations or other problem-solving operations OR A procsedure for solbing a mathematical problem in a finite number of steps that frequently by recursive operations.
+
+
+ - Input
+    |
+    | steps
+    |
+ - Set some set of rules to obtain the xpected output
+    |
+    | steps
+    |
+ - Output  
+
+ - Characteristics of Algorithm
+  1. Finite set of procedures
+  2. Well define inputs
+  3. Clear and unambigous
+  4. Easy to understand
+  5. Easy to implement
+  6. Well defined output
+  7. Language Independant
+
+- Properties
+  1. It should terminate after a finite terminate
+  2. It should produce atleast one output
+  3. it should take one or zero Input
+  4. It should deterministic
+  5. Every step in the alogrithm should be well defined or effective
+
+- Types of Algorithm
+  1. Recursive
+  2. [Brute Force: ](https://www.freecodecamp.org/news/brute-force-algorithms-explained/)
+  3. [Backtracking] (https://www.freecodecamp.org/news/backtracking-algorithms-explained/)
+  4. Searching
+  5. Sorting
+  6. Greedy 
+  7. Divide and Conquer Algorithm etc.
+
+- Advantages of Algorithm
+  1. Easy to understand
+  2. Easy to implement step wise solution
+  3. Psuedo code is easy to understand
+
+- Disadvantages of Algorithm
+  1. Writing an algorithm takes time so time consuming
+  2. Understanding a complex logic can be very difficult
+  3. Branching and Looping statements are hard to understand difficult to show the logic
+
+- How to Design an Algorithm
+
+
+Assignment:
+  1. write a program that takes your firstname and lastname and print your fullname as result
+  2. Write and multiply 3 number and print the result
+  3. Write a program that divide a number into two and print out the result
+
+  Take Note you are to provide the steps and adhere to the rules and charateristics of a good algorithm
