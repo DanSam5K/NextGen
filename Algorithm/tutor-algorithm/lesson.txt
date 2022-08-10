@@ -54,4 +54,11 @@ A more broader definition of algorithm is: A set of rules to be followed in calc
   3. Branching and Looping statements are hard to understand difficult to show the logic
 
 - How to Design an Algorithm
-  
+
+
+Assignment:
+  1. write a program that takes your firstname and lastname and print your fullname as result
+  2. Write and multiply 3 number and print the result
+  3. Write a program that divide a number into two and print out the result
+
+  Take Note you are to provide the steps and adhere to the rules and charateristics of a good algorithm
