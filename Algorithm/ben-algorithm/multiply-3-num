@@ -12,7 +12,7 @@
 
 // step 7. End the program
 
-const multiplyTwoNum = (num1, num2, num3) => {
+const multiplyThreeNum = (num1, num2, num3) => {
   return (result = num1 * num2 * num3);
 };
 
@@ -20,4 +20,4 @@ const printResult = (result) => {
   console.log(result);
 };
 
-printResult(multiplyTwoNum(4, 5, 20));
+printResult(multiplyThreeNum(4, 5, 20));

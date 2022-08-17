@@ -12,7 +12,7 @@
 
 // step 7. End the program
 
-const multiplyTwoNum = (firstname, lastname) => {
+const addTwoName = (firstname, lastname) => {
   return (result = firstname + lastname);
 };
 
@@ -20,4 +20,4 @@ const printResult = (result) => {
   console.log(result);
 };
 
-printResult(multiplyTwoNum(chukwu, benjamin));
+printResult(addTwoName(chukwu, benjamin));
