@@ -12,12 +12,12 @@
 
 // step 7. End the program
 
-const addTwoName = (firstname, lastname) => {
-  return (result = firstname + lastname);
+const AddTwoName = (FirstName, LastName) => {
+  return (result = FirstName + LastName);
 };
 
-const printResult = (result) => {
+const printResult = (result)=> {
   console.log(result);
 };
 
-printResult(addTwoName(chukwu, benjamin));
+printResult(AddTwoName(chukwu, benjamin));

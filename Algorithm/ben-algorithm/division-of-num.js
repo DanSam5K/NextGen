@@ -6,18 +6,18 @@
 
 // step 4. take input for num1 and num2 from user
 
-// step 5 num1 ÷ num2---> result
+// step 5 num1 / num2---> result
 
 // step 6. print out result
 
 // step 7. End the program
 
-const divideTwoNum = (num1, num2) => {
-  return (result = num1 ÷ num2 );
+const DivideTwoNum = (num1, num2) => {
+  return (result = num1 / num2 );
 };
 
-const printResult = (result) => {
+const PrintResult = (result) => {
   console.log(result);
 };
 
-printResult(divideTwoNum(2600,40));
+printResult(DivideTwoNum(2600,40));
