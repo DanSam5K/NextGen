@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+    padding: 40%;
+    justify-content: center;
+    align-items: center;
+}
+.divider {
+    background-color: peachpuff;
+    height: 150px;
+    width: 260px;
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px;
+}
+.div{
+    margin-left: 30%;
+    background: rgb(214, 214, 19);
+    border-radius: 9px;
+    width: 70px;
+    font:bold;
+}
+form input{
+    background:rgb(38, 38, 223);
+    color: white;
+}
+.divider > label > input{
+    background: transparent;
+}
