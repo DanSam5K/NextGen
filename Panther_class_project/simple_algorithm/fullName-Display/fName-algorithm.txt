@@ -1,0 +1,9 @@
+step 1: Start
+step 2: let firstName = firstName
+step 3: let lastName = lastName
+step 4: let display = welcome note plus fullName
+step 5: Enter first name  
+step 6: Enter last name
+step 7: Process display = "Welcome to my page,  " plus firstName plus lastName
+step 8: Print display
+step 8: End
