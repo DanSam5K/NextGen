@@ -11,3 +11,13 @@
 // step 6. print out result
 
 // step 7. End the program
+
+const divideNum = (num) => {
+    return (result = num / 2);
+  };
+  
+  const printResult = (result) => {
+    console.log(result);
+  };
+  
+  printResult(divideNum(100));
