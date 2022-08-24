@@ -20,4 +20,4 @@ const divideNum = (num) => {
     console.log(result);
   };
   
-  printResult(divideNum(100));
+  printResult(divideNum(400));
