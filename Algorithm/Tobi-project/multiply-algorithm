@@ -6,9 +6,19 @@
 
 // step 4. take input for num1, num2 num3 from user
 
-// step 5 num1 * num2 * num3 --> result
+// step 5 num1 * num2 * num3 -> result
 
 // step 6. print out result
 
 // step 7. End the program
+
+const multiplyThreeNum = (num1, num2, num3) => {
+    return (result = num1 * num2 * num3);
+  };
+  
+  const printResult = (result) => {
+    console.log(result);
+  };
+  
+  printResult(multiplyThreeNum(4, 6, 4));
 
