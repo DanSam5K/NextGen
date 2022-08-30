@@ -24,24 +24,3 @@ function century(year) {
 
 //Math.ceil function always rounds a number up to the next largest whole number or integer.
 
-
-
-
-
-/*
-function century(year) {
-
-    let century = 0; //declare a variable
-    
-    for(let i = 0; i < year; i++) {
-      if(i % 100 == 0) {
-        century++;
-      }
-    }
-    return century;
-  }
-
-  console.log(century(2000));
-
-
-  */
