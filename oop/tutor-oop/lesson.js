@@ -78,9 +78,9 @@ class SeniorStudent extends StudentObject {
     this.year = year;
   }
 
-  // Determine if final year, mid, year or beginner
+  // Determine if final year, mid year or beginner
   currentYear() {
-    return `I am currently in ${this.year}`;
+    if (this.year) return `I am currently in ${this.year} year`;
   }
 }
 
