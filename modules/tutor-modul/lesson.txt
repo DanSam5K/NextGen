@@ -1,0 +1,56 @@
+Modules: A module is function or group of similar funtions. They are grouped within a file and contain the code that is executed when the module is imported. Modules are used to organize code and make it easier to reuse.
+
+Modules should be:
+1. Independent
+2. Specific
+3. Reusable
+
+A module can be imported into another module or the interactive interpreter in Python. Modules are imported from other modules using the import statement. The import statement imports a module by the name of the module. The import statement can be used in an interactive interpreter session or can be included in a script.
+
+Example of module
+- E- commerce application
+ . a programm for creating an account
+ . a programm for validate information
+ . a programm to proces payment
+ . another programm to to calculate the user ratings
+
+
+ function createAccount(){
+  //code to create an account
+ }             
+
+
+ function validateInfo(){
+  //code to validate information
+ }
+
+ function processPayment(){
+  //code to process payment
+ }
+
+ function calculateRating(){
+  //code to calculate user rating
+ }
+
+                        E-Commerce APP(main.js)
+                        ----------------------
+                        import {createAccount, validateInfo, processPayment, calculateRating} from './from the files'
+
+                                          
+
+                       export {createAccount, validateInfo, processPayment, calculateRating} from 'individual files'
+                    createAccount.js           calculateRating.js              processPayment.js              validateInfo.js
+
+                    -----------------           -----------------               -----------------             -----------------
+                  function createAccount(){}  function calculateRating(){}  function processPayment(){}      function validateInfo(){
+
+
+
+              Javascript Modules
+
+      A module in JavaScript is just a file containing related code
+
+      in Js we use the import and export keywords to import and export modules. share and receive code, keep code organized, and avoid repetition.
+
+      - The export keyword is use to export code from a module so it can be used in another program with the import keyword.
+      - The import keyword is used to import just the code that a module exports, using an alias to reference it.(used to bring in a public code from another module)
