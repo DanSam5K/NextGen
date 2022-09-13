@@ -1,0 +1,6 @@
+step1: start
+step2: let A = value1, B = value2, ansD = answer
+step3: input A,B from keyboard
+step4: answer = A * B
+step5: display answer
+step6: End

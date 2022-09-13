@@ -1,0 +1,14 @@
+body{
+    background-color: bisque;
+    text-align: center;
+}
+.sub{
+    background-color: green;
+    color: white;
+}
+.ref{
+    background-color: royalblue;
+}
+.ref a{
+    color: white;
+}

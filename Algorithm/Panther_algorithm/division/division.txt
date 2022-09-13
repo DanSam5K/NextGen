@@ -1,0 +1,6 @@
+step1: start
+step2: let A = value1, ansD = answer
+step3: input A (Enter a number) from keyboard
+step4: answer = A / 2
+step5: Display answer
+step6: End
