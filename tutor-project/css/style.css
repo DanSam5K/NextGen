@@ -5,8 +5,8 @@
 }
 
 body {
-  background-color: #ff0000;
-  font-weight: 700;
+  background-color: #272727;
+  color: #fff;
 }
 
 .main {
@@ -17,13 +17,19 @@ body {
   width: 80%;
   margin: 0 auto;
 }
-.main .main__header {
-  color: #000;
-}
-.main .main__header:hover {
-  color: #0000ff;
-}
 .main .main__paragraph {
-  color: #0000ff;
-  font-weight: 400;
+  font-weight: 700;
+}
+.main .main__paragraph:hover {
+  color: #ff652f;
+}
+@media (max-width: 800px) {
+  .main {
+    flex-direction: column;
+  }
+}
+
+.light {
+  background-color: white;
+  color: black;
 }/*# sourceMappingURL=style.css.map */
