@@ -2,6 +2,16 @@
 
 Provide Briref Description of the project and activities during the colabrorative sessions for the entire processes of the project.
 
+## Table of Content
+
+- ALGORITHM
+- CODE WARS TASKS
+- MODULES
+- OBJECT ORIENTED PROGRAMMING (OOP)
+- PROTFOLIO PROJECT
+- REACT PROJECT
+- SASS PROJECT
+
 ## Built With
 
 List all the tech stack we have used during the project building stage.
