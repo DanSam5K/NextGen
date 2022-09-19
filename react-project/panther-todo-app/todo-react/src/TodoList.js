@@ -7,12 +7,18 @@ class TodoList extends Component {
     constructor(props) {
         super(props);
 
-        this.state = {
+        this.state = JSON.parse(window.localStorage.getItem('state')) || {
             items: []
           };
+
      
         this.addItem = this.addItem.bind(this);
         this.deleteItem = this.deleteItem.bind(this);
+    }
+
+    setState(state) {
+      window.localStorage.setItem('state', JSON.stringify(state));
+      super.setState(state);
     }
 
       addItem(e) {
@@ -35,6 +41,7 @@ class TodoList extends Component {
              
           e.preventDefault();
     }
+
 
     deleteItem(key) {
         var filteredItems = this.state.items.filter(function (item) {
