@@ -12,6 +12,7 @@ class TodoItem extends React.Component {
         <button onClick={() => this.props.deleteTodoProps(this.props.todo.id)}>
           Delete
         </button>
+        {this.props.todo.title}
       </li>
     );
   }
