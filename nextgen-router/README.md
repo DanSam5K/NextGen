@@ -37,12 +37,12 @@ names of the authors and acknowledgment goes here
 ## tasks
 
 - [x] Set up our project
-- [ ] Adding a router
-- [ ] The root route
-- [ ] Handling not found errors
-- [ ] The contact route UI
-- [ ] Nested routes
-- [ ] Client side routing
+- [x] Adding a router
+- [x] The root route
+- [x] Handling not found errors
+- [x] The contact route UI
+- [x] Nested routes
+- [x] Client side routing
 - [ ] loading data
 - [ ] Data write + HTML forms
 - [ ] Creating contacts
