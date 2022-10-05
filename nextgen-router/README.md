@@ -35,3 +35,34 @@ for existing users, you can simply run the following command in the terminal:
 names of the authors and acknowledgment goes here
 
 ## tasks
+
+- [x] Set up our project
+- [ ] Adding a router
+- [ ] The root route
+- [ ] Handling not found errors
+- [ ] The contact route UI
+- [ ] Nested routes
+- [ ] Client side routing
+- [ ] loading data
+- [ ] Data write + HTML forms
+- [ ] Creating contacts
+- [ ] Updating data
+- [ ] Updating contacts with formData
+- [ ] Mutation discussion
+- [ ] redirecting new records to the edit page
+- [ ] Active link styling
+- [ ] Global pending UI
+- [ ] Deleting records
+- [ ] Contextual errors
+- [ ] Index routes
+- [ ] Cancel button
+- [ ] URL search params and GET submissions
+- [ ] GET submissions with client side routing
+- [ ] Synchronizing URLs to form state
+- [ ] Submitting forms `onChange`
+- [ ] Adding search spinner
+- [ ] Mutations without navigation
+- [ ] Optimistic UI
+- [ ] Not found data
+- [ ] Pathless routes
+- [ ] JSX routes
