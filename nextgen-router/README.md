@@ -54,7 +54,7 @@ names of the authors and acknowledgment goes here
 - [x] Active link styling
 - [x] Global pending UI
 - [x] Deleting records
-- [ ] Contextual errors
+- [x] Contextual errors
 - [ ] Index routes
 - [ ] Cancel button
 - [ ] URL search params and GET submissions
