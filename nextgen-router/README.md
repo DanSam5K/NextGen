@@ -51,9 +51,9 @@ names of the authors and acknowledgment goes here
 - [x] Updating contacts with formData
 - [x] Mutation discussion
 - [x] redirecting new records to the edit page
-- [ ] Active link styling
-- [ ] Global pending UI
-- [ ] Deleting records
+- [x] Active link styling
+- [x] Global pending UI
+- [x] Deleting records
 - [ ] Contextual errors
 - [ ] Index routes
 - [ ] Cancel button
