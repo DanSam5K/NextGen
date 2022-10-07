@@ -46,9 +46,10 @@ names of the authors and acknowledgment goes here
 - [x] loading data
 - [x] Data write + HTML forms
 - [x] Creating contacts
-- [ ] Updating data
-- [ ] Updating contacts with formData
-- [ ] Mutation discussion
+- [x] URL Params in Loaders
+- [x] Updating data
+- [x] Updating contacts with formData
+- [x] Mutation discussion
 - [ ] redirecting new records to the edit page
 - [ ] Active link styling
 - [ ] Global pending UI
