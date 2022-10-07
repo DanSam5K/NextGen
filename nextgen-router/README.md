@@ -44,8 +44,8 @@ names of the authors and acknowledgment goes here
 - [x] Nested routes
 - [x] Client side routing
 - [x] loading data
-- [ ] Data write + HTML forms
-- [ ] Creating contacts
+- [x] Data write + HTML forms
+- [x] Creating contacts
 - [ ] Updating data
 - [ ] Updating contacts with formData
 - [ ] Mutation discussion
