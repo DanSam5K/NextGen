@@ -55,8 +55,8 @@ names of the authors and acknowledgment goes here
 - [x] Global pending UI
 - [x] Deleting records
 - [x] Contextual errors
-- [ ] Index routes
-- [ ] Cancel button
+- [x] Index routes
+- [x] Cancel button
 - [ ] URL search params and GET submissions
 - [ ] GET submissions with client side routing
 - [ ] Synchronizing URLs to form state
