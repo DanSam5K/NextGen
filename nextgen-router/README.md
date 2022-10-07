@@ -43,12 +43,13 @@ names of the authors and acknowledgment goes here
 - [x] The contact route UI
 - [x] Nested routes
 - [x] Client side routing
-- [ ] loading data
-- [ ] Data write + HTML forms
-- [ ] Creating contacts
-- [ ] Updating data
-- [ ] Updating contacts with formData
-- [ ] Mutation discussion
+- [x] loading data
+- [x] Data write + HTML forms
+- [x] Creating contacts
+- [x] URL Params in Loaders
+- [x] Updating data
+- [x] Updating contacts with formData
+- [x] Mutation discussion
 - [ ] redirecting new records to the edit page
 - [ ] Active link styling
 - [ ] Global pending UI
