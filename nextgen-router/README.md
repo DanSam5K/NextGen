@@ -60,7 +60,7 @@ names of the authors and acknowledgment goes here
 - [x] URL search params and GET submissions
 - [x] GET submissions with client side routing
 - [x] Synchronizing URLs to form state
-- [ ] Submitting forms `onChange`
+- [x] Submitting forms `onChange`
 - [ ] Adding search spinner
 - [ ] Mutations without navigation
 - [ ] Optimistic UI
