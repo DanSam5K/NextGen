@@ -57,8 +57,8 @@ names of the authors and acknowledgment goes here
 - [x] Contextual errors
 - [x] Index routes
 - [x] Cancel button
-- [ ] URL search params and GET submissions
-- [ ] GET submissions with client side routing
+- [x] URL search params and GET submissions
+- [x] GET submissions with client side routing
 - [ ] Synchronizing URLs to form state
 - [ ] Submitting forms `onChange`
 - [ ] Adding search spinner
