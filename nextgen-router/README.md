@@ -50,17 +50,17 @@ names of the authors and acknowledgment goes here
 - [x] Updating data
 - [x] Updating contacts with formData
 - [x] Mutation discussion
-- [ ] redirecting new records to the edit page
-- [ ] Active link styling
-- [ ] Global pending UI
-- [ ] Deleting records
-- [ ] Contextual errors
-- [ ] Index routes
-- [ ] Cancel button
-- [ ] URL search params and GET submissions
-- [ ] GET submissions with client side routing
-- [ ] Synchronizing URLs to form state
-- [ ] Submitting forms `onChange`
+- [x] redirecting new records to the edit page
+- [x] Active link styling
+- [x] Global pending UI
+- [x] Deleting records
+- [x] Contextual errors
+- [x] Index routes
+- [x] Cancel button
+- [x] URL search params and GET submissions
+- [x] GET submissions with client side routing
+- [x] Synchronizing URLs to form state
+- [x] Submitting forms `onChange`
 - [ ] Adding search spinner
 - [ ] Mutations without navigation
 - [ ] Optimistic UI
