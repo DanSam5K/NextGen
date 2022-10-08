@@ -59,7 +59,7 @@ names of the authors and acknowledgment goes here
 - [x] Cancel button
 - [x] URL search params and GET submissions
 - [x] GET submissions with client side routing
-- [ ] Synchronizing URLs to form state
+- [x] Synchronizing URLs to form state
 - [ ] Submitting forms `onChange`
 - [ ] Adding search spinner
 - [ ] Mutations without navigation
