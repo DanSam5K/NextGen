@@ -1,5 +1,4 @@
 import { Outlet, Link, useLoaderData, Form, redirect } from "react-router-dom";
-
 import { getContacts, createContact } from "../contacts";
 
 export async function action() {
@@ -30,9 +29,9 @@ export default function Root() {
             <div id="search-spinner" aria-hidden hidden={true} />
             <div className="sr-only" aria-live="polite"></div>
           </form>
-          <Form method="post">
+          <form method="post">
             <button type="submit">New</button>
-          </Form>
+          </form>
         </div>
         <nav>
           {contacts.length ? (
@@ -60,7 +59,6 @@ export default function Root() {
         </nav>
       </div>
       <div id="detail">
-        {" "}
         <Outlet />
       </div>
     </>
