@@ -66,4 +66,4 @@ names of the authors and acknowledgment goes here
 - [x] Optimistic UI
 - [x] Not found data
 - [x] Pathless routes
-- [ ] JSX routes
+- [x] JSX routes
