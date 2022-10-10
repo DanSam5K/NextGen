@@ -53,17 +53,17 @@ names of the authors and acknowledgment goes here
 - [x] redirecting new records to the edit page
 - [x] Active link styling
 - [x] Global pending UI
-- [ ] Deleting records
-- [ ] Contextual errors
-- [ ] Index routes
-- [ ] Cancel button
-- [ ] URL search params and GET submissions
-- [ ] GET submissions with client side routing
-- [ ] Synchronizing URLs to form state
-- [ ] Submitting forms `onChange`
-- [ ] Adding search spinner
-- [ ] Mutations without navigation
-- [ ] Optimistic UI
-- [ ] Not found data
-- [ ] Pathless routes
+- [x] Deleting records
+- [x] Contextual errors
+- [x] Index routes
+- [x] Cancel button
+- [x] URL search params and GET submissions
+- [x] GET submissions with client side routing
+- [x] Synchronizing URLs to form state
+- [x] Submitting forms `onChange`
+- [x] Adding search spinner
+- [x] Mutations without navigation
+- [x] Optimistic UI
+- [x] Not found data
+- [x] Pathless routes
 - [ ] JSX routes
