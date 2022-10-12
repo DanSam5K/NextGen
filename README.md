@@ -59,6 +59,12 @@ for example
 - Twitter: [browncheese6](https://twitter.com/browncheese6)
 - Linkedin: [mccgrey](https://www.linkedin.com/in/mccgrey)
 
+👤 **Obiora Emmanuel**
+
+- Github: [Emmanuel-obiora](https://github.com/Emmanuel-obiora)
+- Twitter: [Miroclesdgenius](https://twitter.com/Miroclesdgenius)
+- Linkedin: [obiora-emmanuel](https://www.linkedin.com/in/obiora-emmanuel-b4935616a/)
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
