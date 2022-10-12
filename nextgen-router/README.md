@@ -61,9 +61,10 @@ names of the authors and acknowledgment goes here
 - [x] GET submissions with client side routing
 - [x] Synchronizing URLs to form state
 - [x] Submitting forms `onChange`
-- [ ] Adding search spinner
-- [ ] Mutations without navigation
-- [ ] Optimistic UI
-- [ ] Not found data
-- [ ] Pathless routes
-- [ ] JSX routes
+- [x] Adding search spinner
+- [x] Mutations without navigation
+- [x] Optimistic UI
+- [x] Not found data
+- [x] Pathless routes
+- [x] JSX routes
+
