@@ -6,7 +6,6 @@ import Root, {
   loader as rootLoader,
   action as rootAction,
 } from "./routes/root";
-
 import ErrorPage from "./error-page";
 import Contact from "./routes/contact";
 
