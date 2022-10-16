@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import {
   Outlet,
   NavLink,
@@ -24,6 +25,11 @@ export async function loader({ request }) {
 export default function Root() {
   const { contacts, q } = useLoaderData();
   const navigation = useNavigation();
+
+  useEffect(() => {
+    document.getElementById("q").value = q;
+  }, [q]);
+
   return (
     <>
       <div id="sidebar">
