@@ -43,12 +43,18 @@ button {
 button {
   color: #3992ff;
   font-weight: 500;
+  transition: all 400ms ease;
 }
 
 textarea:hover,
 input:hover,
 button:hover {
   box-shadow: 0 0px 1px hsla(0, 0%, 0%, 0.6), 0 1px 2px hsla(0, 0%, 0%, 0.2);
+}
+
+button:hover {
+  background: #3992ff;
+  color: white;
 }
 
 button:active {
@@ -81,9 +87,13 @@ button:active {
 }
 
 form[action$="destroy"] button {
-  color: #f44250;
+  color: #b80817;
 }
 
+form[action$="destroy"]:hover button {
+  background: rgb(126, 4, 4);
+  color: white;
+}
 .sr-only {
   position: absolute;
   width: 1px;
@@ -105,7 +115,7 @@ form[action$="destroy"] button {
 #sidebar {
   width: 22rem;
   background-color: #f7f7f7;
-  border-right: solid 1px #e3e3e3;
+  border-right: solid 2px #cee7fc;
   display: flex;
   flex-direction: column;
 }
@@ -122,7 +132,7 @@ form[action$="destroy"] button {
   align-items: center;
   margin: 0;
   padding: 1rem 2rem;
-  border-top: 1px solid #e3e3e3;
+  border-top: 15px solid #cee7fc;
   order: 1;
   line-height: 1;
 }
