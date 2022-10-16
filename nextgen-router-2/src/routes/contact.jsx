@@ -9,7 +9,14 @@ export async function action({ request, params }) {
 }
 
 export async function loader({ params }) {
-  return getContact(params.contactId);
+  const contact = await getContact(params.contactId);
+  if (!contact) {
+    throw new Response("", {
+      status: 404,
+      statusText: "Not Found",
+    });
+  }
+  return contact;
 }
 
 export default function Contact() {
@@ -75,6 +82,11 @@ export default function Contact() {
 function Favorite({ contact }) {
   const fetcher = useFetcher();
   let favorite = contact.favorite;
+
+  if (fetcher.formData) {
+    favorite = fetcher.formData.get("favorite") === "true";
+  }
+
   return (
     <fetcher.Form method="post">
       <button
