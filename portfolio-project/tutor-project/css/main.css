@@ -1,21 +1,16 @@
-body {
-  background: rgba(255, 255, 68, 0.3333333333);
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
-  color: #ff652f;
-}
-
-.main {
-  width: 80%;
-  margin: 0 auto;
-}
-.main_paragraph {
-  font-weight: 700;
-}
-.main_paragraph:hover {
-  color: green;
-}/*# sourceMappingURL=main.css.map */9, 39, 0.3)), url("https://www.sparkinfosys.com/images/home/aboutus-img.png") center top;
+.home {
+  height: 100%;
+  padding-top: 40vh;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.3)), url("https://www.sparkinfosys.com/images/home/aboutus-img.png") center top;
   background-size: cover;
 }
 .home__name {
