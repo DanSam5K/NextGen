@@ -1,21 +1,16 @@
-body {
-  background: rgba(255, 255, 68, 0.3333333333);
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
-  color: #ff652f;
-}
-
-.main {
-  width: 80%;
-  margin: 0 auto;
-}
-.main_paragraph {
-  font-weight: 700;
-}
-.main_paragraph:hover {
-  color: green;
-}/*# sourceMappingURL=main.css.map */9, 39, 0.3)), url("https://www.sparkinfosys.com/images/home/aboutus-img.png") center top;
+.home {
+  height: 100%;
+  padding-top: 40vh;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.3)), url("https://www.sparkinfosys.com/images/home/aboutus-img.png") center top;
   background-size: cover;
 }
 .home__name {
@@ -222,7 +217,7 @@ h1 {
   padding-bottom: 2rem;
 }
 .projects__bio-image {
-  height: 30vh;
+  height: 50vh;
   width: 100%;
   background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("https://www.sparkinfosys.com/images/home/aboutus-img.png") center top;
   background-size: cover;
@@ -322,6 +317,56 @@ h1 {
   margin-top: 2rem;
 }
 
+@media screen and (min-width: 768px) {
+  .menu-btn {
+    visibility: hidden;
+  }
+  .nav {
+    visibility: visible;
+  }
+  .nav .menu-nav {
+    display: block;
+    transform: translateY(0);
+    height: 100%;
+    background: transparent;
+    text-align: right;
+  }
+  .nav .menu-nav__item {
+    display: inline;
+    padding-right: 1.5rem;
+  }
+  .nav .menu-nav__link {
+    font-size: 1.5rem;
+  }
+  .about__bio {
+    font-size: 1.5rem;
+  }
+  .projects__bio-image {
+    height: 40vh;
+  }
+  .projects__items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .projects text-secondary {
+    font-size: 3rem;
+  }
+  .contact__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .projects__items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .contact__list__items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 1600px) {
+  .projects__bio-image {
+    height: 50vh;
+  }
+}
 body {
   background: #272727;
   color: #fff;
