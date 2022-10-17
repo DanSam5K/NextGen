@@ -19,7 +19,7 @@
   }
   
   &__items {
-    width: 30vw;
+    width: 60vw;
     margin: 2rem auto 0 auto;
     display: grid;
     grid-template-columns: 1fr;
@@ -33,7 +33,7 @@
     cursor: pointer;
 
     img {
-      width: 50%;
+      width: 100%;
     }
 
     &::after {
