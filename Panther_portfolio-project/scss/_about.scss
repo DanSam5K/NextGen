@@ -2,7 +2,6 @@
     padding-bottom: 2rem;
   
     &__bio-image {
-      height: 50vh;
       width: 100%;
       background: linear-gradient(to  right, rgba($primary-color, 0.9), rgba($primary-color, 0.3)
         ), url('https://www.sparkinfosys.com/images/home/aboutus-img.png') center top;
@@ -20,6 +19,7 @@
     &__bio {
       width: 80%;
       text-align: center;
+      margin-top: 1.5rem;
   
       .text-secondary {
         padding-bottom: 1rem;
@@ -52,9 +52,11 @@
     .social-icons {
       display: flex;
       flex-direction: column;
+      margin-bottom: 2rem;
     }
     
     footer {
+      margin: 0 1rem 2rem 0;
       transform: rotate(90deg) translate(-3rem, -5rem);
     }
   }

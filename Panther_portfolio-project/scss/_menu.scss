@@ -59,7 +59,8 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
+    width: 25%;
+    margin: 0 0 0 75%;
     opacity: 0.98;
     visibility: hidden;
   
@@ -68,15 +69,15 @@
     }
   
     .menu-nav {
-      display: flex;
-      flex-flow: column wrap;
-      justify-content: center;
+      display:flex;
+      flex-flow: column;
       align-items: center;
-      height: 100vh;
+      border-radius: 5%;
+      margin-top: 10px;
       overflow: hidden;
-      background: $primary-color;
+      background: $primary-varient;
       list-style-type: none;
-      padding-right: 1rem;
+      padding: 2rem 0 0 0;
       transform: translateY(-100%);
       @include transition-ease;
   
@@ -99,10 +100,12 @@
   
       &__link {
         display: inline-block;
-        font-size: 2rem;
+        font-size: 1.2rem;
+        width: 50vw;
+        text-align: center;
         text-transform: uppercase;
         padding: 2rem 0;
-        font-weight: 300;
+        font-weight: 200;
         @include transition-ease;
   
         &:hover {

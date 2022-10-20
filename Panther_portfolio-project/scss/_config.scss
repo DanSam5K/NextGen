@@ -1,5 +1,8 @@
-$primary-color: #272727;
-$secondary-color: #ff652f;
+$primary-color: #1F1F38;
+$primary-varient: #2C2C6C;
+$secondary-color: #4db5FF;
+$secondary-varient: rgba(77, 181, 255, 0.4);
+
 
 * {
   box-sizing: border-box;
@@ -23,6 +26,7 @@ $secondary-color: #ff652f;
 @mixin media-md {
   @media screen and (min-width: 768px) {
     @content;
+    
   }
 }
 

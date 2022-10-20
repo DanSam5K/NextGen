@@ -1,94 +1,62 @@
+@import "./breakpoints/main.scss";
+
 .projects {
-    padding-bottom: 2rem;
-  
+    margin-bottom: 0;
+
     &__bio-image {
-      height: 50vh;
-      width: 100%;
-      background: linear-gradient(to  right, rgba($primary-color, 0.9), rgba($primary-color, 0.3)
-        ), url('https://www.sparkinfosys.com/images/home/aboutus-img.png') center top;
-      background-size: cover;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: flex-end;
   
       .text-secondary {
-        font: 2rem;
-        margin-bottom: 2rem;
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
       }
     }
     
-    &__items {
-      width: 60vw;
-      margin: 2rem auto 0 auto;
+    .portfolio_container {
+      width: 75%;
+      margin: 0 auto;
       display: grid;
-      grid-template-columns: 1fr;
-      grid-gap: 2rem;
-    }
-  
-    &__item {
-      position: relative;
-      border-bottom: 5px solid $secondary-color;
-      overflow: hidden;
-      cursor: pointer;
-  
-      img {
-        width: 100%;
+      grid-template-columns: repeat(3, 1fr);
+      gap:2.1rem;
+
+      @media (min-width: 600px){
+        
       }
-  
-      &::after {
-        content: '';
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba($secondary-color, 0.9);
-        opacity: 0;
+      
+
+      .portfolio_item{
+        background: $primary-varient;
+        padding: 1.2rem;
+        border-radius: 2rem;
+        text-align: center;
+        border: 1px solid transparent;
         @include transition-ease;
-      }
-  
-      &:hover{
-        &::after {
-          opacity: 0.8;
-          top: 0;
+
+        &:hover{
+          border-color: $secondary-varient;
+          background: transparent;
         }
-  
-        .projects__btn {
-          opacity: 1;
+
+        &-image{
+          border-radius: 1.5rem;
+          overflow:hidden;
         }
       }
+
+      
     }
-  
-    &__btns {
-      position: absolute;
-      top: 0;
-      height: 100%;
-      width: 100%;
-      z-index: 1;
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      align-items: center;
-      text-align: center;
-    }
-  
-    &__btn {
-      opacity: 0;
-      color: set-text-color($secondary-color);
-      @include transition-ease;
-  
-      &:hover {
-        color: set-text-color(set-text-color($secondary-color));
-      }
-    }
-     
+
     .social-icons {
       display: flex;
       flex-direction: column;
+      margin-bottom: 2rem;
     }
     
     footer {
+      margin: 0 1rem 2rem 0;
       transform: rotate(90deg) translate(-3rem, -5rem);
     }
   }
-  
