@@ -1,63 +1,181 @@
-.about {
-    padding-bottom: 2rem;
-  
-    &__bio-image {
-      width: 100%;
-      background: linear-gradient(to  right, rgba($primary-color, 0.9), rgba($primary-color, 0.3)
-        ), url('https://www.sparkinfosys.com/images/home/aboutus-img.png') center top;
-      background-size: cover;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-end;
-  
-      p {
-        margin-bottom: 2rem;
-      }
-    }
-    
-    &__bio {
-      width: 80%;
-      text-align: center;
-      margin-top: 1.5rem;
-  
-      .text-secondary {
-        padding-bottom: 1rem;
-      }
-    }
-  
-    .jobs {
-      width: 60vw;
-      margin: 2rem auto 0 auto;
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-gap: 2rem;
-  
-      &__job {
-        background: lighten($primary-color, 10%);
-        padding: 0.5rem;
-        border-bottom: 5px solid $secondary-color;
-  
-        h2, h3 {
-          margin: 0.5rem 0;
-        }
-  
-        h6 {
-          margin: 0.3rem 0;
-        }
-    
-      }
-    } 
 
-    .social-icons {
-      display: flex;
-      flex-direction: column;
-      margin-bottom: 2rem;
+.about-main{
+  display: flex;
+  flex-direction:column;
+  justify-content: flex-end;
+  margin-top: 2rem;
+  align-items: center;
+  margin-bottom: 5rem;
+  width: auto;
+  text-align: center;
+
+  @media (max-width: 37.5rem){
+    text-align: center;
+  }
+
+    h2, h5 {
+      text-align: center;
+      color: $color-light;
+    }
+    & > h2{
+      color: $color-light;
+      margin-bottom: 1rem;
+    }
+
+  .career {
+    display: block;
+    justify-items: center;
+    align-content: center;
+
+    &_profile{
+      display: block;
+      margin: 0 auto;
+      width: 25%;
+      background: linear-gradient(45deg, transparent, $secondary-color, transparent);
+      margin-bottom: 3rem;
+
+
+      & img{
+        overflow: hidden;
+        @include transition-ease;
+      }
+    }
+    &_journey{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+      
+      @media (max-width: 64rem){
+        grid-template-columns: repeat(2, 1fr);
+      }
+      @media (max-width: 37.5rem){
+        grid-template-columns: 1fr;
+        
+      }
+
+      &-card{
+        width: 90%;
+        background: $primary-varient;
+        border: 1px solid transparent;
+        border-radius: 1rem;
+        padding: 2rem;
+        height: 12rem;
+        text-align: center;
+        @include transition-ease;
+
+        @media (max-width: 37.5rem){
+          width: 80%;
+          margin-left: 10%;
+        }
+
+        &:hover{
+          background: transparent;
+          border-color: $secondary-varient;
+          cursor: default;
+        }
+
+        & i{
+          color: $secondary-color;
+          font-size: 1.4rem;
+          margin-bottom: 1rem;
+        }
+
+        & h5{
+          font-size: 1.5rem;
+          color: $color-light;
+          margin-bottom: 1rem;
+
+        }
+
+        & small{
+          font-size: 0.9rem;
+          color: $color-light;
+          width: 20%;
+        }
+      }
+
+    }
+      & p{
+        margin: 2rem 0 2.6rem;
+        color: $color-light;
+
+        @media (max-width: 37.5rem){
+          margin-left: 10%;
+          width: 80%;
+        }
+      }
+  }
+
+}
+
+
+.experience{
+  display: flex;
+  flex-direction:column;
+  justify-content: flex-end;
+  margin-top: 2rem;
+  align-items: center;
+  width: auto;
+
+  &_container{
+    display: block;
+    margin-top: 3rem;
+
+    @media (max-width: 37.5rem){
+      width: 75%;
     }
     
-    footer {
-      margin: 0 1rem 2rem 0;
-      transform: rotate(90deg) translate(-3rem, -5rem);
+
+    &>div{
+      background: $primary-varient;
+      padding: 2.2rem 3rem;
+      border-radius: 2rem;
+      border: 1px solid transparent;
+      @include transition-ease;
+
+      @media (max-width: 37.5rem){
+        padding: 1rem;
+      }
+
+      &:hover{
+        background: transparent;
+        border-color: $secondary-varient;
+        cursor: default;
+      }
+
+      & h3{
+        text-align: center;
+        margin-bottom: 2rem;
+        color: $secondary-color;
+      }
     }
+
+    .experience_content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 2rem;
+  
+        .experience_details{
+          display: flex;
+          gap: 1rem;
+  
+          &-icon{
+            margin-top: 6px;
+            color: $secondary-color;
+          }
+        }
+      }
+    
+  }
+
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
   }
   
+  footer {
+    margin: 0 1rem 2rem 0;
+    transform: rotate(90deg) translate(-3rem, -5rem);
+  }
+}

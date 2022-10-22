@@ -1,18 +1,26 @@
 .contact {
-    height: 100%;
-    padding-top: 40vh;
+    height: 100vh;
+    padding-top: 30vh;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
     background: linear-gradient(to  right, rgba($primary-color, 0.8), rgba($primary-color, 0.3)
-      ), url('https://www.sparkinfosys.com/images/home/aboutus-img.png') center top;
+      ), url("/panther-portfolio/img/Obi-profile.png") center;
     background-size: cover;
     
+    @media(max-width: 37.5rem){
+      padding-top: 20vh;
+    }
+
     h2 {
       font-size: 4rem;
       margin-bottom: 1.5rem;
       border-bottom: 2px solid set-text-color($primary-color);
+
+      @media(max-width: 37.5rem){
+        font-size: 3rem;
+      }
     }
   
     &__list {

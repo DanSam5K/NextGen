@@ -63,6 +63,11 @@
     margin: 0 0 0 75%;
     opacity: 0.98;
     visibility: hidden;
+
+    @media (max-width: 37.5rem){
+      width: 30%;
+      margin: 0 0 0 70%;
+    }
   
     &.open {
       visibility: visible;
@@ -107,6 +112,11 @@
         padding: 2rem 0;
         font-weight: 200;
         @include transition-ease;
+
+        @media (max-width: 37.5rem){
+          font-size: 0.8rem;
+        }
+      
   
         &:hover {
           color: $secondary-color;

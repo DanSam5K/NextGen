@@ -15,9 +15,10 @@ body {
   line-height: 1;
 }
 
-h1, h2, h3 {
-  font-weight: 700;
+h1, h2, h3, h4, h5 {
+  font-weight: 500;
 }
+
 
 .btn{
   width: max-content;
@@ -56,8 +57,8 @@ a {
   text-decoration: none;
 }
 
-.text-secondary {
-  color: $secondary-color;
+.text-light {
+  color: $color-light;
 }
 
 header {
@@ -68,7 +69,7 @@ header {
 }
 
 main {
-  height: 100%;
+  height: 100vh;
   width: 100%;
 
   .social-icons {

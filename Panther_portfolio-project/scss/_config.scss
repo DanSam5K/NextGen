@@ -2,6 +2,7 @@ $primary-color: #1F1F38;
 $primary-varient: #2C2C6C;
 $secondary-color: #4db5FF;
 $secondary-varient: rgba(77, 181, 255, 0.4);
+$color-light: rgba(255, 255, 255, 0.8);
 
 
 * {
@@ -9,6 +10,15 @@ $secondary-varient: rgba(77, 181, 255, 0.4);
   margin: 0;
   padding: 0;
 }
+
+a{
+  color: $secondary-color;
+
+  &:hover{
+    color: white;
+  }
+}
+
 
 @mixin transition-ease {
   transition: all 0.5s ease-in-out;
