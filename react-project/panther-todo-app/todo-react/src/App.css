@@ -1,0 +1,66 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root{
+    --color-bg: rgba(59, 3, 59, 0.9);
+    --color-text: yellow;
+    --color-white: white;
+    --color-del: red;
+
+
+    --transition: all ease 350ms;
+
+}
+
+.App{
+    background: var(--color-bg);
+    display: block;
+    width: auto;
+    height: 80vh;
+    margin: 5rem 20%;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.addTask{
+    display: flex;
+    width: auto;
+    font-size: 2rem;
+    justify-content: space-between;
+
+}
+
+.addTask > input{
+    width:80%;
+    height: 5vh;
+    margin:1rem;
+}
+
+.addTask > button{
+    margin: 1rem;
+    width: 10%;
+    border-radius: 15px;
+    background: var(--color-text);
+    color: var(--color-bg);
+}
+
+.display{
+    display: flex;
+    gap: 3%;
+    justify-content: space-between;
+    height: auto;
+    width: 80%;
+    margin: 1rem 1rem;
+    font-size: 10px;
+    background: var(--color-white);
+    padding: 0.5rem;
+}
+
+.display > button{
+    background: var(--color-del);
+} */
