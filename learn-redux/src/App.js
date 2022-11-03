@@ -1,6 +1,9 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { increment, decrement } from "./actions";
+import Index from "./tutorial/useReducer/index";
+
+import ErrorExample from "./tutorial/useState/errorExample";
 
 function App() {
   const counter = useSelector((state) => state.counter);
@@ -18,6 +21,9 @@ function App() {
       ) : (
         "Sorry, you're not logged in."
       )}
+
+      {/* <Index /> */}
+      <ErrorExample />
     </div>
   );
 }
